@@ -198,5 +198,5 @@ span {
 
 #box1 a {
     text-align: center;
-    text-decoration: none;
+    text-decoration: none!important;
 }
