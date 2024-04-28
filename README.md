@@ -5,9 +5,8 @@ This project is a simple clone of the Netflix website created using HTML and CSS
 
 Technologies Used
 
-<li>HTML</li>
-<li>CSS</li>
-
+HTML
+CSS
 
 Contributing
 
