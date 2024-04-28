@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #141414;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;
+    /* background-image: url(https://miro.medium.com/v2/resize:fit:10266/1*MxUvw-TAhGXoyzxObntefQ.jpeg); */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+#netflix_logo {
+    height: 1cm;
+    width: 3cm;
+    margin-left: 1cm;
+    margin-top: 0.2cm;
+    margin-bottom: 0.2cm;
+}
+
+nav ul li {
+    display: inline-block;
+    color: white;
+    padding: 0.1cm;
+}
+
+#nav {
+    font-size: small;
+    float: inline-end;
+    margin-top: 0.4cm;
+    margin-right: 0.3cm;
+}
+
+#search {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 0.2cm;
+}
+
+.fa-solid {
+    padding: 0.2cm;
+    color: white;
+}
+
+#join_now {
+    background-color: red;
+    color: white;
+    border-radius: 0.05cm;
+    border-color: whitesmoke;
+    font-size: large;
+    padding: 0.2cm;
+    text-decoration: none;
+}
+
+#sign_in {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 0.25cm;
+    text-decoration: none;
+    margin-right: 1cm;
+}
+
+.movies {
+    color: white;
+    font-size: xx-large;
+    margin-top: 1.5cm;
+    margin-left: 1cm;
+    font-weight: 500;
+}
+
+#para {
+    color: white;
+    font-size: large;
+    margin-left: 1cm;
+    margin-top: 0.2cm;
+}
+
+.home {
+    margin-top: 2cm;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px, 1fr));
+    gap: 10px;
+    margin-top: 0.4cm;
+    margin-bottom: 2cm;
+    /* overflow-x: scroll;
+    overflow-y: scroll; */
+    width: 100%;
+}
+
+a:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.main-content {
+    margin: 15px 40px;
+}
+
+span {
+    color: white;
+    text-decoration: none !important;
+    text-align: center;
+    display: block;
+    margin-top: 3px;
+}
+
+#join_now_foot {
+    background-color: red;
+    color: white;
+    border-radius: 0.05cm;
+    border-color: whitesmoke;
+    font-size: x-large;
+    padding: 0.2cm;
+    text-decoration: none;
+    text-align: center;
+}
+
+#para1 {
+    font-size: large;
+    padding: 0.3cm;
+}
+
+#gap {
+    padding: 0.3cm;
+}
+
+#read {
+    color: #737373;
+    text-decoration: none;
+    margin-left: 1cm;
+}
+
+#read1 {
+    margin-top: 3cm;
+    margin-bottom: 2cm
+}
+
+#footer {
+    margin: 15px 40px;
+    width: 100%;
+}
+
+#contact {
+    color: #737373;
+    text-decoration: none;
+    margin-bottom: 2cm;
+}
+
+#as {
+    margin-top: 1cm;
+    display: inline-flex;
+    color: white;
+    border: #737373;
+}
+
+#option {
+    display: block;
+    padding: 2px 3px 2px 2px;
+    font-size: x-large;
+    color: white;
+    background-color: black;
+    font-size: large;
+}
+
+.blur-content {
+    filter: blur(8px);
+    margin: 15px 40px;
+}
+
+#box1 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    gap: 20px;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    width: 100%;
+    color: #737373;
+    transform: scale(1);
+    transition: 0.1s;
+    text-decoration: none;
+}
+
+#box1 a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
